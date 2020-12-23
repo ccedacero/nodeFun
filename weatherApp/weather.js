@@ -5,7 +5,6 @@ function printError(error) {
     console.error(error.message);
 }
 function printCityData(data) {
-    console.log(data);
     const message = `You are located at ${data.coord.lon} | ${data.coord.lat} | ${data.name}`
     const temperature = `Current temperature ${data.main.temp}`;
     const feelsLike = `Feels like ${data.main.feels_like}`;
