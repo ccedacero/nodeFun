@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipe_name": "Cinnamon Rolls",
+      "description": "The best homemade cinnamon rolls ever!",
+      "ingredients": ["5 cups of flour", "1 1/2 cups of sugar", "1 packet of yeast", "1 teaspoon of salt", "1/2 cup of milk", "1/2 cup of water", "3/4 cup of butter", "2 eggs", "1 1/2 tablespoons of ground cinnamon"],
+      "steps": ["Combine flour, sugar, yeast and salt in bowl", "Heat water, milk, and butter until very warm", "Stir in flour mixture and eggs", "Knead dough until smooth", "Cover and let rest for 10 minutes", "Roll out dough", "Sprinkle with sugar and cinnamon", "Roll up tightly and pinch seams to seal", "Cut into 15 pieces", "Place on baking pan", "Cover and let sit for 30 minutes", "Preheat oven to 375 degrees", "Bake for 30 minutes"],
+      "image_url": "https://cdn.pixabay.com/photo/2016/05/26/16/27/baking-1417494_960_720.jpg"
+    },
+    {
+      "id": 2,
+      "recipe_name": "Yeast Donuts",
+      "description": "A delicious donut recipe",
+      "ingredients": ["3 1/2 cup flour", "2 packets of yeast", "3/4 cup of milk", "3/4 cup of sugar", "1/4 cup of butter", "1/2 teaspoon of salt", "2 eggs"],
+      "steps": ["Combine flour, sugar, yeast and salt in bowl", "Heat water, milk, and butter until very warm", "Stir in flour mixture and eggs", "Knead dough until smooth", "Cover and let rest for 1 hour", "Roll out dough", "Cut out donuts and let rise for 45 minutes", "Fry donuts"],
+      "image_url": "https://cdn.pixabay.com/photo/2012/02/28/00/47/berliner-17811_960_720.jpg"
+    },
+    {
+      "id": 3,
+      "recipe_name": "Pumpkin Pie",
+      "description": "A perfect pumpkin pie recipe",
+      "ingredients": ["1 can of pumpkin", "1 can of sweetened condensed milk", "2 eggs", "1 teaspoon cinnamon", "1/2 teaspoon ground ginger", "1/2 teaspoon ground nutmeg", "1/2 teaspoon of salt", "1 pie crust"],
+      "steps": ["Preheat oven to 425 degrees", "Whisk pumpkin, condensed milk, eggs, spices and salt in bowl until smooth", "Pour into pie crust", "Bake for 15 minutes", "Reduce temperature to 350 degrees and continue baking for 40 minutes"],
+      "image_url": "https://cdn.pixabay.com/photo/2016/04/11/21/32/pumpkin-1323131_960_720.jpg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 The Recipe Box
+  p A collection of delicious recipes for you to use in the kitchen.
+
+  //- 1. Use Pug's `each` iterator to render recipe markup for each recipe object
+
+  //- 2. Render the `href` attribute using the recipe ID. For example: '/recipes/1'
+  a(href='/recipes/')
+    //- 3. Dynamically display the recipe name
+    h2 Recipe Name
+    //- 4. Dynamically render the `src` attribute using the `image_url` property
+    img(src='https://placehold.it/550x550' width='320' height='240')  

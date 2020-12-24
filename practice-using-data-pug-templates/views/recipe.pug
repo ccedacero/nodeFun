@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  a(href='/') ← Back to recipes
+  //- 1. Dynamically display a recipe name
+  h1 Momma's Old Fashion Chocolate Chip Cookies
+
+  //- 2. Render the `src` attribute using the `image_url` property
+  img(src='https://placehold.it/480x360' width='320' height='240')
+
+  //- 3. Dynamically display a recipe description
+  p A recipe for chocolate chip cookies just like mom used to make
+
+  h2 Ingredients
+  ul
+    //- 4. Use Pug's `each` iterator to render an `<li>` for each ingredient
+    li flour
+    li sugar
+    li milk
+    li chocolate chips
+
+  h2 Steps
+  ol
+    //- 5. Use an iterator to render an `<li>` for each recipe step
+    li Preheat oven to 400 degrees
+    li Add 2 cups of flour
+    li Add 1/2 cup of sugar
+    li Add 1 cup of milk
+    li Add 1/2 cup of chocolate chips
+    li Stir
+    li Spoon out cookie size lumps of batter onto baking sheet
+    li Bake for 22 minutes
