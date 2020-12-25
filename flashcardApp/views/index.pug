@@ -2,4 +2,7 @@ extends layout.pug
 
 block content 
   section#content
-    h2 Welcome, student!
+    h2 Welcome, #{name}!
+  if(name)
+    form(action='/signout', method='POST')
+      button(type='submit') Signout
