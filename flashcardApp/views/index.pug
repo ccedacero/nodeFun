@@ -2,7 +2,5 @@ extends layout.pug
 
 block content 
   section#content
-    h2 Welcome, #{name}!
-  if(name)
-    form(action='/signout', method='POST')
-      button(type='submit') Signout
+  p
+    a(href=`/cards`) Begin
